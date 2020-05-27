@@ -24,7 +24,7 @@ defmodule FireAuth.Mixfile do
   defp deps do
     [
       {:plug, "~> 1.10.1"},
-      {:httpotion, "~> 1.6.2"},
+      {:httpoison, "~> 1.6.2"},
       {:poison, "~> 4.0.1"},
       {:joken, "~> 2.2.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
